@@ -1,0 +1,21 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  packages/a:
+    dependencies:
+      '@pnpm-deploy-failure/b':
+        specifier: workspace:*
+        version: link:../b
+
+  packages/b:
+    dependencies:
+      '@pnpm-deploy-failure/c':
+        specifier: 1.0.0
+        version: link:../c
+
+  packages/c: {}

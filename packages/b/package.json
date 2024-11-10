@@ -1,0 +1,7 @@
+{
+  "name": "@pnpm-deploy-failure/b",
+  "version": "1.0.0",
+  "dependencies": {
+    "@pnpm-deploy-failure/c": "1.0.0"
+  }
+}

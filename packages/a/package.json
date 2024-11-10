@@ -1,0 +1,7 @@
+{
+  "name": "@pnpm-deploy-failure/a",
+  "version": "1.0.0",
+  "dependencies": {
+    "@pnpm-deploy-failure/b": "workspace:*"
+  }
+}
